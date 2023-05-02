@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: beige;
+}
+
+li, p {
+    font-size: 110%;
+} 
+
+
+/*header*/
+
+header {
+    text-align: center;
+    color:black;
+    padding: 15px;
+    background-color:navajowhite;
+}
+
+.header_boton {
+    color: orangered;
+    padding: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    color:darkblue
+}
+
+
+/*main*/
+
+.photo-fon {
+    background-color: navajowhite;
+    padding: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid gray;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color:orangered;
+    border-left: 7px solid orangered;
+    padding: 10px;
+}
+
+.info {
+    margin-left: 150px;
+}
+
+.number, .site {
+    color: orangered;
+}
+
+/*footer*/
+
+.footer {
+    padding: 20px;
+    background-color:navajowhite;
+    text-align: center;
+}
+
+
