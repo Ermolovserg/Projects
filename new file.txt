@@ -243,7 +243,7 @@ body {
     width: 1205px;
     height: 524px;
     left: 116px;
-    top: 933px;
+    top: 932px;
 }
 
 .nav_container {
