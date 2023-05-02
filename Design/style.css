@@ -1,0 +1,511 @@
+body {
+    margin: 0;
+    font-family: Nunito Sans;
+    font-size: 11px;
+    color: white;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+/*header*/
+
+header {
+    background-color: black;
+
+}
+
+.header_container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+    max-width: 1256px;
+
+}
+
+.header_logo {
+    color: #E3B873;
+    text-transform: uppercase;
+}
+
+.menu_item {
+    display: flex;
+    list-style-type: none;
+}
+
+.header_item {
+    padding-right: 47px;
+}
+
+.header_menu {
+    color: white;
+    text-decoration: none;
+}
+
+.header_menu_1 {
+    color: #E3B873;
+    text-decoration: none;
+}
+
+.number {
+    color: #E3B873;
+    text-decoration: none;
+}
+
+.header_button, button {
+    background: #E3B873;
+    text-transform: uppercase;
+    text-align: center;
+    border: 0;
+    padding: 13px 33px;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px
+     rgba(227, 184, 115, 0.2);
+    color: white;
+    font-style: italic;
+    font-size: 11px;
+}
+
+/*main*/
+
+.hero {
+    background: url(./Img/image\ 4.3.jpg);
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    padding-bottom: 208px;
+    position: relative;
+    
+}
+.hero:before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .5);
+}
+
+.contaier_hero {
+    margin: 0 auto;
+    max-width: 1171px;
+    position: relative;
+}
+
+.hero_header {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+}
+
+.brown_color {
+    color: #E3B873;
+}
+
+.hero_header_1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.button_hero {
+    width: 207px;
+    margin-right: 20px;
+    padding: 20px 41px;
+}
+
+.button_hero_1 {
+    background: none;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 19px 25px;
+}
+
+.projects_contetnt {
+    background: black;
+}
+
+.container_rosov {
+    padding-top: 100px;
+    padding-bottom: 400px;
+    max-width: 1171px;
+    margin: 0 auto;
+}
+
+.rostov_menu {
+    justify-content: flex-end;
+    margin-bottom: 52px;
+}
+
+.main_item {
+    padding-right: 60px;
+}
+
+
+
+.main_menu {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Yeseva One;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.3)
+}
+
+.main_menu_1 {
+    color: #E3B873;
+    border-bottom: 1px solid #e3b873;
+    padding-bottom: 7px;
+    
+}
+
+.container_rosov_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed_projects_text {
+    font-size: 27px;
+    line-height: 37px;
+    margin-bottom: 34px;
+}
+
+.Only_text {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.content_text {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.content_text_item {
+    width: 50%;
+    padding-bottom: 34px;
+
+}
+
+.content_text_info {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 9px;
+}
+
+.arrow-white_1, .arrow-right{
+    padding-left: 30px;
+}
+
+.arrow-white_2 {
+    padding-left: 10px;
+}
+
+.control {
+    padding-bottom: 150px;
+}
+
+.online_container {
+    max-width: 1171px;
+    margin: 0 auto;
+    margin-bottom: 31px;
+    margin-top: -330px;
+}
+
+
+.online_header {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.camera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.camera_photo {
+    margin: 0 10px;
+}
+
+
+.image_fon {
+    background-image: url(./Img/image\ 6.jpg);
+    position: relative;
+    height: 434px;
+    width: 817px;
+    margin: 31px auto 0;
+}
+
+.image_fon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.container_image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.play {
+    margin: auto;
+    width: 85px;
+    height: 85px;
+    background: #E3B873;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr_line {
+    align-items: center;
+    background-color: #E3B873;
+    width: 55px;
+    height: 2px;
+    margin-top: 62px;
+    margin-bottom: 31px;
+    border: none;
+}
+
+.text_onlie_contiol {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    line-height: 37px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.action_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_item {
+    display: flex;
+    margin-bottom: 33px;
+}
+
+.form_item_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.online_label {
+    color:rgba(54, 54, 54, 0.5);
+    font-size: 13px;
+    Line-height:21px
+}
+
+.text_name {
+    font-size: 14px;
+    line-height: 22px;
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    margin-right: 58px;
+
+}
+
+.button_form {
+    font-size: 13px;
+    font-style: normal;
+    width: 200px;
+    height: 51px;
+}
+
+.chekbox {
+    display: flex;
+}
+
+.chekbox_text {
+    font-size: 14px;
+    color: black;
+}
+
+.chekbox_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    background-color: #E3B873;
+    border-radius: 1px;
+    margin-right: 10px;
+}
+
+.types_header {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.types_logo { 
+    margin-bottom:31px ;
+}
+
+.container_types {
+    margin: 0 auto;
+    max-width: 1236px;
+}
+
+.types_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Redecorating_block {
+    display: flex;
+    flex-direction: column;
+    width: 392px;
+    padding-bottom: 124px;
+}
+
+.photo_int {
+    margin-bottom: -125px;
+}
+
+.block_info {
+    margin: 0 auto;
+    background-color: white;
+    width: 330px;
+    height: 286px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.block_header {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+    margin-left: 30px;
+}
+
+.block_list {
+    color: rgba(149, 149, 149, 1);
+    font-size: 13px;
+    Line-height:26.6px;
+}
+
+.block_price {
+    font-family: Yeseva One;
+    text-transform: uppercase;
+    background-color: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    width: 228px;
+    height: 54px;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+.advantages {
+    display: flex;
+    max-width: 1236px;
+    justify-content: space-between;
+}
+
+.advantages_item {
+    display: flex;
+    background-image: url(./Img/image\ 6.1.jpg);
+    background-size: cover;
+    flex-direction: column;
+    width: 527px;
+    height: 539px;
+}
+
+.advantages_item_number {
+    display: flex;
+    align-items: center;
+    margin-bottom: 95px;
+}
+
+.advantages_item_number_1 {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #E3B873;
+    border: 8px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Yeseva One;
+    font-size: 18px;
+    margin-right: 18px;
+    margin-left: 40px;
+}
+
+.advantages_item_text {
+    color: black;
+    font-size: 14px;
+}
+
+.advantages_online_leave {
+    width: 506px;
+    height: 509px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages_text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 26px;
+    margin-bottom: 39px;
+}
+
+.online_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leave_text {
+    background-color: black;
+    color: white;
+}
+
+.leave_input {
+    width: 408px;
+}
+
+.leave_input_label {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
